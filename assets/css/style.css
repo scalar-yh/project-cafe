@@ -503,6 +503,54 @@ a:hover {
 }
 
 /* ==================================================
+  Picture Space Styling
+  ================================================== */
+  .pic1 {
+    color: #fff;
+    height: 780px;
+    overflow: hidden;
+    padding-top: 85px;
+    background: url("../img/airplane-sunset.jpg") center top no-repeat;
+  }
+  .pic1 h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .pic1 p {
+    color: #fff;
+    margin-bottom: 45px;
+  }
+  .pic2 {
+    color: #fff;
+    height: 780px;
+    overflow: hidden;
+    padding-top: 85px;
+    background: url("../img/hotel1.jpg") center top no-repeat;
+  }
+  .pic2 h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .pic2 p {
+    color: #fff;
+    margin-bottom: 45px;
+  }
+  .pic3 {
+    color: #fff;
+    height: 780px;
+    overflow: hidden;
+    padding-top: 85px;
+    background: url("../img/hotel2.jpg") center top no-repeat;
+  }
+  .pic3 h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .pic3 p {
+    color: #fff;
+    margin-bottom: 45px;
+  }
+/* ==================================================
   Features Styling
   ================================================== */
 .features {
@@ -550,7 +598,7 @@ a:hover {
   Call-to-action Styling
   ================================================== */
 .cta {
-  background-color: #0b5be1;
+  background-color: #c7eeff;
   padding: 25px 0;
 }
 .cta h2 {
