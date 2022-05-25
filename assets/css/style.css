@@ -1,7 +1,9 @@
-/**
-  * Page Name: DREAM
+/*
+  <!-- =======================================================
+  * Page Name: Golf-GoGo
   * Author: Kim yun hwan & Hwang young jun
   * License: https://github.com/scalar-yh/capstone22
+  ======================================================== -->
 */
 
 h1, h2, h3, h4, h5, h6 {
@@ -525,7 +527,6 @@ a:hover {
     height: 780px;
     overflow: hidden;
     padding-top: 85px;
-    margin-top: 40px;
     background: url("../img/hotel1.jpg") center top no-repeat;
   }
   .pic2 h2 {
@@ -541,7 +542,6 @@ a:hover {
     height: 780px;
     overflow: hidden;
     padding-top: 85px;
-    margin-top: 40px;
     background: url("../img/hotel2.jpg") center top no-repeat;
   }
   .pic3 h2 {
@@ -552,6 +552,17 @@ a:hover {
     color: #fff;
     margin-bottom: 45px;
   }
+  .pic4 {
+    color: #fff;
+    height: 780px;
+    overflow: hidden;
+    padding-top: 85px;
+    background: url("../img/casino.jpg") center top no-repeat;
+  }
+  .pic4 h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
 
   /*==================================================
     Room picture Styling
@@ -559,6 +570,7 @@ a:hover {
   .slider-text h2 {
     text-transform: uppercase;
     margin-bottom: 15px;
+    padding-top: 110px;
   }
 
   /*==================================================
@@ -631,11 +643,12 @@ a:hover {
   Call-to-action Styling
   ================================================== */
 .cta {
-  background-color: #c7eeff;
-  padding: 25px 0;
+  background-image: url(/assets/img/text-bg.jpg);
+  padding: 20px 0;
 }
 .cta h2 {
   margin-bottom: 5px;
+  padding-top: 5px;
 }
 .cta h2,
 .cta p {
@@ -647,7 +660,7 @@ a:hover {
 }
 .cta .btn-ghost {
   position: relative;
-  top: 13px;
+  top: 5px;
 }
 
 /* ==================================================

@@ -1,10 +1,10 @@
   <!-- =======================================================
-  * Page Name: DREAM
-  * Author: Kim yun hwan
-  * License: https://github.com/scalar-yh
+  * Page Name: Golf-GoGo
+  * Author: Kim yun hwan & Hwang young jun
+  * License: https://github.com/scalar-yh/capstone22
   ======================================================== -->
 
-## This Page Created By Scalar-yh
+## This Page Created By Scalar-yh & Hwang-young jun
 #### Image By Freepik
 #### Icon By Bootstrap
 

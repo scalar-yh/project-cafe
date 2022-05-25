@@ -39,7 +39,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Page Name: DREAM
+  * Page Name: Golf-GoGo
   * Author: Kim yun hwan & Hwang young jun
   * License: https://github.com/scalar-yh/capstone22
   ======================================================== -->
@@ -59,30 +59,12 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">홈</a></li>
-          <li><a class="nav-link scrollto" href="#about">소개</a></li>
-
-          <li><a class="nav-link scrollto" href="#features">사업소개</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">패키지</a></li>
-          <li><a class="nav-link scrollto" href="#team">직원</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="index.html#hero">홈</a></li>
+          <li><a class="nav-link scrollto" href="index.html#pic-space">Our Intro</a></li>
+          <li><a class="nav-link scrollto" href="/inner-hotel.html">소개</a></li>
+          <li><a class="nav-link scrollto" href="/inner-pack.html">패키지</a></li>
+          <li><a class="nav-link scrollto" href="/inner-filed.html">라운딩 갤러리</a></li>
+          <li><a class="nav-link scrollto active" href="/inner-page.html">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -104,10 +86,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Inner Page</h2>
+          <h2>예약</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Inner Page</li>
+            <li>예약하기</li>
           </ol>
         </div>
 
@@ -116,51 +98,64 @@
 
     <section class="inner-page">
       <div class="container">
-        <!-- ======= About Section ======= -->
-    <section class="about" id="about">
-
-      <div class="container text-center">
-        <h2>
-          Golf Travel의 강점
-        </h2>
-
-        <p>
-          가장 확실하고, 가장 신뢰있게. 골프를 즐기며 떠나는 특별한 당신을 위한 여행
-        </p>
-
-        <div class="row stats-row">
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span data-purecounter-start="0" data-purecounter-end="410" data-purecounter-duration="1" class="purecounter stats-no"></span>
-              누적 이용자
-            </div>
-          </div>
-
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter stats-no"></span>
-              만족도
-            </div>
-          </div>
-
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span data-purecounter-start="0" data-purecounter-end="250" data-purecounter-duration="1" class="purecounter stats-no"></span>
-              재방문자
-            </div>
-          </div>
-
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter stats-no"></span>
-              보유 전문가
-            </div>
+        <!-- ======= Contact Section ======= -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="section-title">Contact Us</h2>
           </div>
         </div>
-      </div>
 
-    </section>
-        <!-- End About Section -->
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+              <div>
+                <i class="bi bi-geo-alt"></i>
+                <p>A108 Adam Street<br>New York, NY 535022</p>
+              </div>
+
+              <div>
+                <i class="bi bi-envelope"></i>
+                <p>info@example.com</p>
+              </div>
+
+              <div>
+                <i class="bi bi-phone"></i>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
       </div>
     </section>
 
@@ -174,7 +169,7 @@
 
           <div class="col-lg-6 col-xs-12 text-lg-start text-center">
             <p class="copyright-text">
-              &copy; Copyright <strong>Bell</strong>. All Rights Reserved
+              &copy; Copyright <strong>Scalar-yh</strong>. All Rights Reserved
             </p>
             
           </div>
@@ -182,31 +177,32 @@
           <div class="col-lg-6 col-xs-12 text-lg-right text-center">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="index.html">Home</a>
+                <a href="index.html">홈</a>
               </li>
 
               <li class="list-inline-item">
-                <a href="#about">About Us</a>
+                <a href="index.html#pic-space">Our Intro</a>
               </li>
 
               <li class="list-inline-item">
-                <a href="#features">Features</a>
+                <a href="inner-hotel.html">소개</a>
               </li>
 
               <li class="list-inline-item">
-                <a href="#portfolio">Portfolio</a>
+                <a href="inner-pack.html">패키지</a>
               </li>
 
               <li class="list-inline-item">
-                <a href="#team">Team</a>
+                <a href="/inner-filed.html">라운딩 갤러리</a>
               </li>
-
+              
               <li class="list-inline-item">
-                <a href="#contact">Contact</a>
-              </li>
+                <a href="inner-page.html">Contact</a>
+               </li>
+
             </ul>
           </div>
-
+ 
         </div>
       </div>
     </div>
