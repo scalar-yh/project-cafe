@@ -81,7 +81,7 @@ a:hover {
   background-color: #199EB8;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 800;
-  color: #fff;
+  color: rgb(0, 0, 0);
   padding: 15px 45px;
   border-radius: 50px;
 }
@@ -94,7 +94,7 @@ a:hover {
 }
 
 .btn-ghost {
-  border: 3px solid #fff;
+  border: 3px solid rgb(0, 0, 0);
   background-color: transparent;
 }
 .btn-ghost:hover {
@@ -202,7 +202,7 @@ a:hover {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -212,7 +212,7 @@ a:hover {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #fff;
+  color: rgb(15, 34, 206);
 }
 .navbar .dropdown ul {
   display: block;
@@ -510,7 +510,7 @@ a:hover {
     height: 780px;
     overflow: hidden;
     padding-top: 85px;
-    background: url("../img/airplane-sunset.jpg") center top no-repeat;
+    background: url("../img/bg1.jpg") center top no-repeat;
   }
   .pic1 h2 {
     text-transform: uppercase;
@@ -525,6 +525,7 @@ a:hover {
     height: 780px;
     overflow: hidden;
     padding-top: 85px;
+    margin-top: 40px;
     background: url("../img/hotel1.jpg") center top no-repeat;
   }
   .pic2 h2 {
@@ -540,6 +541,7 @@ a:hover {
     height: 780px;
     overflow: hidden;
     padding-top: 85px;
+    margin-top: 40px;
     background: url("../img/hotel2.jpg") center top no-repeat;
   }
   .pic3 h2 {
@@ -550,6 +552,37 @@ a:hover {
     color: #fff;
     margin-bottom: 45px;
   }
+
+  /*==================================================
+    Room picture Styling
+  ==================================================*/
+  .slider-text h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+
+  /*==================================================
+    Package Section Styling
+  ==================================================*/
+  .pack1 {
+    color: #fff;
+    height: 680px;
+    overflow: hidden;
+    padding-top: 85px;
+    background: url("../img/pack.png") center top no-repeat;
+  }
+  .pack2 {
+    color: #fff;
+    height: 950px;
+    overflow: hidden;
+    padding-top: 85px;
+    background: url("../img/package.png") center top no-repeat;
+  }
+
+
+
+
+
 /* ==================================================
   Features Styling
   ================================================== */
@@ -606,7 +639,7 @@ a:hover {
 }
 .cta h2,
 .cta p {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .cta p {
   margin-bottom: 0;
