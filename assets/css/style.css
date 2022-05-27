@@ -405,40 +405,6 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Stats
---------------------------------------------------------------*/
-.stats-row {
-  margin-top: 65px;
-}
-
-.stats-col .circle {
-  display: inline-block;
-  width: 160px;
-  height: 160px;
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  color: #666;
-  border: 6px solid #dd2c85;
-  border-radius: 50%;
-  padding: 55px 25px 0 25px;
-  position: relative;
-}
-.stats-col .circle .stats-no {
-  color: #fff;
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
-  top: -25px;
-  right: -15px;
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  background-color: #00e0a8;
-  position: absolute;
-  border-radius: 50%;
-  font-weight: 700;
-}
-
-/*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
@@ -596,27 +562,28 @@ a:hover {
 
 
 /* ==================================================
-  Features Styling
+  service Styling
   ================================================== */
-.features {
+.service {
   padding-bottom: 45px;
 }
-.features h2 {
+
+.service h2 {
   color: #199EB8;
 }
 
-.feature-col {
+.service-col {
   display: table;
   padding-bottom: 45px;
 }
-.feature-col > div > div {
+.service-col > div > div {
   display: table-cell;
   vertical-align: middle;
 }
-.feature-col > div > div:last-child {
+.service-col > div > div:last-child {
   padding-left: 20px;
 }
-.feature-col .feature-icon {
+.service-col .service-icon {
   width: 70px;
   height: 70px;
   margin-bottom: 15px;
@@ -630,10 +597,10 @@ a:hover {
   justify-content: center;
   line-height: 0;
 }
-.feature-col h3 {
+.service-col h3 {
   color: #199EB8;
 }
-.feature-col p {
+.service-col p {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #999;
@@ -718,88 +685,6 @@ a:hover {
 .portfolio-grid .row > div .card:hover .portfolio-over {
   opacity: 1;
   visibility: visible;
-}
-
-/* ==================================================
-  Team Styling
-  ================================================== */
-.team h2 {
-  color: #199EB8;
-}
-.team .col-sm-3 {
-  padding: 0;
-}
-.team .card > a {
-  display: block;
-}
-.team .card img {
-  width: 100%;
-}
-.team .card h4 {
-  color: #fff;
-  text-transform: uppercase;
-}
-.team .card p {
-  font-size: 11px;
-  color: #fff;
-  opacity: 0.75;
-  margin: 0;
-  padding: 0 35px;
-}
-.team .card .social-nav {
-  margin-bottom: 45px;
-}
-.team .card .social-nav a {
-  color: #fff;
-  font-size: 16px;
-  margin: 0 4px;
-}
-.team .card .social-nav a:hover {
-  opacity: 0.75;
-}
-.team .card:hover .team-over {
-  opacity: 1;
-  visibility: visible;
-}
-.team .card:hover .card-title-wrap {
-  background-color: #199EB8;
-}
-.team .card:hover .card-title-wrap .card-title,
-.team .card:hover .card-title-wrap .card-text {
-  color: #fff;
-}
-.team .team-over {
-  padding-top: 45px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  top: 0;
-  left: 0;
-  text-align: center;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease;
-}
-.team .card-title-wrap {
-  padding: 15px 25px;
-  position: relative;
-  z-index: 9;
-  background-color: #fff;
-}
-.team .card-title-wrap .card-title,
-.team .card-title-wrap .card-text {
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
-  display: block;
-  margin: 0;
-}
-.team .card-title-wrap .card-title {
-  font-size: 24px;
-  color: #333;
-}
-.team .card-title-wrap .card-text {
-  font-size: 18px;
-  color: #999;
 }
 
 /* ==================================================
@@ -964,7 +849,7 @@ a:hover {
     padding: 35px 0;
   }
 
-  .features {
+  .service {
     padding-bottom: 5px;
   }
 
@@ -1003,15 +888,11 @@ a:hover {
     padding: 75px 0;
   }
 
-  .stats-col {
-    margin-bottom: 25px;
-  }
-
   .block {
     height: auto;
   }
 
-  .feature-col {
+  .service-col {
     padding-bottom: 30px;
   }
 
