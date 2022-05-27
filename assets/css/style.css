@@ -643,7 +643,7 @@ a:hover {
   Call-to-action Styling
   ================================================== */
 .cta {
-  background-image: url(/assets/img/text-bg.jpg);
+  background-image: url(../img/text-bg.jpg);
   padding: 20px 0;
 }
 .cta h2 {
