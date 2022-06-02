@@ -551,8 +551,8 @@ a:hover {
   }
   .pack2 {
     color: #fff;
-    height: 950px;
     overflow: hidden;
+    height: 10876px;
     padding-top: 85px;
     background: url("../img/package.png") center top no-repeat;
   }
