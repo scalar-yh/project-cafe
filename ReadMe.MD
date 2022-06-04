@@ -6,7 +6,7 @@
 
 ## This Page Created By Scalar-yh & Hwang-young jun
 #### Image By Freepik
-#### Icon By Bootstrap
+#### Icon By Bootstrap & Freepik
 
 <p class="copyright-text">
     &copy; Copyright <strong>Scalar-yh</strong>. All Rights Reserved
