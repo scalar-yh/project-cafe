@@ -4,7 +4,7 @@
   * License: https://github.com/scalar-yh/capstone22
   ======================================================== -->
 
-## This Page Created By Scalar-yh & Hwang-young jun
+## Website Created By Scalar-yh & Hwang-young jun
 #### Image By Freepik
 #### Icon By Bootstrap & Freepik
 
