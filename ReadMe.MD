@@ -1,10 +1,10 @@
   <!-- =======================================================
   * Page Name: Golf-GoGo
-  * Author: Kim yun hwan & Hwang young jun
+  * Author: Kim yun hwan
   * License: https://github.com/scalar-yh/capstone22
   ======================================================== -->
 
-## Website Created By Scalar-yh & Hwang-young jun
+## Website Created By Scalar-yh
 #### Image By Freepik
 #### Icon By Bootstrap & Freepik
 
