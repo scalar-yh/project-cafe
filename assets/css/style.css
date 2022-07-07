@@ -80,7 +80,7 @@ a:hover {
   Elements
   ================================================== */
 .btn {
-  background-color: #199EB8;
+  background-color: #E04F00;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 800;
   color: rgb(0, 0, 0);
@@ -125,8 +125,8 @@ a:hover {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #c7eeff;
-  height: 70px;
+  background: #ffffff;
+  height: 90px;
 }
 #header #logo h1 {
   font-size: 32px;
@@ -158,7 +158,7 @@ a:hover {
   margin: 0 0 0 30px;
 }
 .header-social-links a {
-  color: rgba(255, 255, 255, 0.8);
+  color: #ED6F2D;
   padding-left: 8px;
   display: inline-block;
   line-height: 0px;
@@ -169,7 +169,7 @@ a:hover {
   font-size: 24px;
 }
 .header-social-links a:hover {
-  color: #fff;
+  color: rgb(102, 102, 102);
 }
 @media (max-width: 768px) {
   .header-social-links {
@@ -204,7 +204,7 @@ a:hover {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.8);
+  color: #ED6F2D;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -214,7 +214,7 @@ a:hover {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: rgb(15, 34, 206);
+  color: #1eb9f2;
 }
 .navbar .dropdown ul {
   display: block;
@@ -368,18 +368,9 @@ a:hover {
   padding: 150px 0;
   color: #fff;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 }
-/* .hero:after {
-  content: "";
-  z-index: 0;
-  position: absolute;
-  background: rgba(91, 76, 76, 0.65);
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-} */
+
 .hero .container {
   position: relative;
   z-index: 1;
@@ -408,13 +399,14 @@ a:hover {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 20px 0;
+  padding: 30px 0;
   background-color: #fafafa;
   min-height: 40px;
 }
 .breadcrumbs h2 {
   font-size: 24px;
   font-weight: 300;
+  padding-top: 10px;
   margin: 0;
 }
 @media (max-width: 992px) {
@@ -456,10 +448,10 @@ a:hover {
   ================================================== */
 .welcome {
   color: rgb(0, 0, 0);
-  height: 490px;
+  height: 100%;
   overflow: hidden;
-  padding-top: 85px;
-  background: url("../img/golf-pic.jpg") center top no-repeat;
+  padding-top: 100px;
+  background-color: #ffffff center top no-repeat;
 }
 .welcome h2 {
   text-transform: uppercase;
@@ -468,6 +460,17 @@ a:hover {
 .welcome p {
   color: rgb(0, 0, 0);
   margin-bottom: 45px;
+}
+
+#intro-txt {
+  color: #ED6F2D;
+  font-size: 4em;
+  text-align:center!important;
+}
+#intro-txt-re {
+  color: #ED6F2D;
+  font-size: 2em;
+  text-align:center!important;
 }
 
 /* ==================================================
@@ -488,21 +491,6 @@ a:hover {
     color: #fff;
     margin-bottom: 45px;
   }
-  .pic2 {
-    color: #fff;
-    height: 780px;
-    overflow: hidden;
-    padding-top: 85px;
-    background: url("../img/hotel1.jpg") center top no-repeat;
-  }
-  .pic2 h2 {
-    text-transform: uppercase;
-    margin-bottom: 15px;
-  }
-  .pic2 p {
-    color: #fff;
-    margin-bottom: 45px;
-  }
   .pic3 {
     color: #fff;
     height: 780px;
@@ -520,7 +508,7 @@ a:hover {
   }
   .pic4 {
     color: #fff;
-    height: 980px;
+    height: 1080px;
     overflow: hidden;
     padding-top: 85px;
     background: url("../img/casino.jpg") center top no-repeat;
@@ -574,7 +562,7 @@ a:hover {
 }
 
 .service h2 {
-  color: #199EB8;
+  color: #E04F00;
 }
 
 .service-col {
@@ -592,7 +580,7 @@ a:hover {
   width: 70px;
   height: 70px;
   margin-bottom: 15px;
-  background: #199EB8;
+  background: #E04F00;
   color: #fff;
   font-size: 24px;
   text-align: center;
@@ -603,7 +591,7 @@ a:hover {
   line-height: 0;
 }
 .service-col h3 {
-  color: #199EB8;
+  color: #E04F00;
 }
 .service-col p {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -615,7 +603,7 @@ a:hover {
   Call-to-action Styling
   ================================================== */
 .cta {
-  background-image: url(../img/text-bg.jpg);
+  background-color: #E04F00;
   padding: 20px 0;
 }
 .cta h2 {
@@ -818,7 +806,7 @@ a:hover {
   opacity: 1;
 }
 .site-footer .bottom {
-  background-color: #000;
+  background-color: #111;
   padding: 20px 0;
 }
 .site-footer .bottom .list-inline,
@@ -842,6 +830,34 @@ a:hover {
 }
 .site-footer .credits a {
   color: #199EB8;
+}
+
+/*--------------------------------------------------------------
+# Footer-icon-set
+--------------------------------------------------------------*/
+.footer-icon-set {
+  margin: 0 0 0 30px;
+  text-align: center;
+}
+.footer-icon-set a {
+  color: #ED6F2D;
+  padding-left: 8px;
+  display: inline-block;
+  line-height: 0px;
+  transition: 0.3s;
+}
+.footer-icon-set a i {
+  line-height: 0;
+  font-size: 30px;
+  text-align: center;
+}
+.footer-icon-set a:hover {
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .footer-icon-set {
+    margin: 0 15px 0 0;
+  }
 }
 
 /* ==================================================
